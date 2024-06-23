@@ -10,6 +10,9 @@ import { FormsModule, NgForm } from "@angular/forms";
 })
 export class HeaderComponent{
     defaultGender='';
+    answer='';
+    ageGroup=['Below 18','Above 18'];
+    defaultAgeGroup = 'Above 18';
     onSubmit(form:NgForm){
       console.log(form)
     }
