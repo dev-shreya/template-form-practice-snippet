@@ -11,6 +11,6 @@ import { FormsModule, NgForm } from "@angular/forms";
 export class HeaderComponent{
     defaultGender='';
     onSubmit(form:NgForm){
-      console.log(form.value)
+      console.log(form)
     }
 }
