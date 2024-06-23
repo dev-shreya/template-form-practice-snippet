@@ -58,7 +58,18 @@
         <div class="button-container">
             <button class="btn btn-primary" [disabled]="!f.form.valid">Submit</button>
         </div>
+
+<hr>
+        <div class="row">
+            <label >Submitted Form Data:</label>
+            <h3>Email: {{userData.email}} </h3>
+            <h3>Password: {{userData.password}}</h3>
+            <h3>Gender: {{userData.gender}}</h3>
+            <h3>Age Group: {{userData.age}} </h3>
+        </div>
         </form>
+
+    
 
     </div>
 </div>
