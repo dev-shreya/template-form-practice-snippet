@@ -60,7 +60,7 @@
         </div>
 
 <hr>
-        <div class="row">
+        <div class="row" *ngIf="submitted">
             <label >Submitted Form Data:</label>
             <h3>Email: {{userData.email}} </h3>
             <h3>Password: {{userData.password}}</h3>
