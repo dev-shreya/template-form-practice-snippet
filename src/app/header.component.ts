@@ -13,7 +13,6 @@ export class HeaderComponent{
   @ViewChild('f') signupForm !: NgForm;
   submitted=false;
     defaultGender='';
-    answer='';
     ageGroup=['Below 18','Above 18'];
     defaultAgeGroup = 'Above 18';
     userData={
